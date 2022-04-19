@@ -1,0 +1,460 @@
+// coding this ought to be empty at the end of the project, with each code categorized after each design. 
+
+.body_container {
+    background-color: $primarydark;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: $primaryyellow;
+  }
+
+
+.component_01 {
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 20px;
+
+        .title_header {
+            font-family: $primaryfont;
+            font-size: 48px;
+            font-weight: 700;
+            font-style: normal;
+            
+            }
+            
+            .fa-align-right {
+                color: $primaryred;
+
+            }
+}
+
+.component_02 {
+    display: flex;
+    justify-content: space-around;
+    .secondary_header {
+
+        width: 33.33%;
+        display: flex;
+        justify-content: center;
+        padding: 12px;
+        color: $primarylight;
+        font-family: $secondaryfont;
+        font-size: 18px;
+        font-weight: 100;
+        font-style: normal;
+     
+    }
+}
+
+
+.wide_video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+.video_component {
+    display: none;
+    justify-content: center;
+    width: clamp(40%, 1920px, 90%);
+    // border-top: 1px solid $primarylight;
+    // border-left: 1px solid white;
+    margin-bottom: 0px;
+
+    #video_play {
+        width: 100%;
+        
+        box-shadow: 2px 2px 5px $primarylight;
+    }
+}
+}
+
+.wide_video_iframe {
+    width: 95%;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
+.video_component_x {
+    display: flex;
+    justify-content: center;
+    width: clamp(40%, 1920px, 90%);
+    box-shadow: 2px 2px 5px $primarylight;
+
+
+
+}
+
+#video_component_iframe {
+    display: flex;
+}
+
+}
+
+.component_03 {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    .button {
+        border: none;
+        width: 300px;
+        padding: 8px;
+        background-color: $primaryred;
+        color: $secondarygray;
+        font-family: $secondaryfont;
+
+        font-size: 28px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px $primaryyellow;
+
+    }
+    
+}
+
+.component_04 {
+    
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    background-color: $secondaryred;
+}
+
+.component_05 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: "/src/img/code.png";
+
+
+    .subheader {
+        color: rgb(53, 161, 197);
+        font-family: 'Gill Sans';
+        font-size: 28px;
+        text-align: center;
+        padding: 15px;
+    }
+    .text {
+        color: $primarylight;
+        font-family: $secondaryfont;
+        text-align: justify;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+}
+
+.component_06 {
+  width: 100%;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+
+  .audio_container {
+        width: 500px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    
+         @media (min-width: 500px) {
+             flex-direction: row;
+         }
+         border-radius: 5px;
+
+      background-color: #B78155;
+      .tune_header {
+        color: white;
+        font-family: $secondaryfont;
+        font-weight: bolder;
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    #audio_act {
+        border: solid 5px rgb(80, 80, 80);
+        background-color: rgb(209, 209, 209);
+        padding: 5px;
+        border-radius: 25px;
+    }
+    .audio_img {
+        width: 50px;
+    }
+  }
+}
+
+#component_06_01 {
+    width: 100%;
+    display: none;
+
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  
+  
+    .audio_container {
+          width: 500px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+      
+           @media (min-width: 500px) {
+               flex-direction: row;
+           }
+           border-radius: 5px;
+  
+        background-color: rgb(33, 33, 33);
+        .tune_header {
+          color: white;
+          font-family: $secondaryfont;
+          font-weight: bolder;
+          font-size: 18px;
+          text-align: center;
+          
+      }
+      #audio_act {
+          border: solid 5px rgb(80, 80, 80);
+          background-color: rgb(209, 209, 209);
+          padding: 5px;
+          border-radius: 25px;
+      }
+      .audio_img {
+          width: 50px;
+      }
+    }
+  }
+
+.component_07 {
+    width: 100%;
+    display: none;
+    justify-content: flex-end;
+    position: fixed;
+    top: 150px;
+
+    .dropdown_container {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        border: solid 1px white;
+        background-color: $primarydark;
+        .dropdown_text_container
+        {
+            right: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 1px $primarylight;
+            box-shadow: -5px 5px 5px $secondaryred;
+            background-color: $secondarygray;
+            
+            .dropdown_text {
+                font-family: $secondaryfont;
+                color: $primarylight;
+                font-size: 32px;
+                
+
+
+            }
+        }
+
+    }
+
+}
+
+.component_08 {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .img_container {
+        width: clamp(33.33%, 330px, 90%);
+        padding: 5px;
+        .img {
+            width: 100%;
+            box-shadow: 2px 2px 2px $primarylight;
+        }
+        .sss {
+            opacity: 95%;
+        }
+    }
+}
+
+.component_09 {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    .third_header_container {
+        border-right: white 1px solid;
+        border-left: solid 1px white;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+
+
+        .third_header {
+            font-family: $secondaryfont;
+            font-size: 32px;
+            color: $primarylight;
+        }
+    }
+}
+
+.component_10 {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .socials_container {
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        border: solid 2px $primarylight;
+        box-shadow: 5px 5px 5px $primarylight;
+        background-color: rgb(53, 53, 53);
+        padding: 5px;
+        .fa-brands {
+            color: $primaryred;
+        }
+
+    }
+}
+
+.component_11_01 {
+    width: 100%;
+}
+    
+.inputs {
+            display: none;
+            justify-content: center;
+            .fieldset {
+                border: none;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding-bottom: 50px;
+                .input {
+                    font-family: $thirdfont;
+                    color: white;
+                    font-size: 18px;
+                    background-color: $secondaryred;
+                    padding: 10px;
+                    border-radius: 33px;
+                    border: none;
+                    box-shadow: -5px 5px 5px $primarylight;
+                    border: solid 1px white;
+
+
+                }
+
+                .submit {
+                   
+                        border: none;
+                        padding: 8px;
+                        background-color: $primarygray;
+                        color: $primarylight;
+                        font-family: $thirdfont;
+                        font-size: 24px;
+                        border-radius: 30px;
+                        border: solid 1px white;
+                        
+                
+                
+                }
+                .email {
+                    color: $primarylight;
+                    font-family: $secondaryfont;
+                
+                }
+            }
+        }
+
+.component_05_01 {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    margin-bottom: 15px;
+    .a_img {
+        display: flex;
+        justify-content: center;
+    }
+    .img_container {
+        width: clamp(33.33%, 240px, 90%);
+        .second_img {
+            width: 100%;
+            border: solid 1px white;
+
+            box-shadow: 5px 5px white;
+
+
+        }
+    }
+
+
+}
+
+.blondinis_header {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    .bh {
+        color: $primarylight;
+        font-family: 'Gill Sans', 'Open Sans';
+        font-weight: lighter;
+        font-size: 32px;
+    }
+    .bh_p {
+        color: $primarylight;
+        font-family: $secondaryfont;
+
+    }
+}
+
+.flex_on {
+    display: flex;
+}
+
+.flex_off {
+    display: none;
+}
+
+.component_13 {
+    display: flex;
+    .app {
+      width: 400px;
+      padding: 0 1rem;
+      max-height: 100vh;
+      overflow: hidden;
+      background-color: $secondarygray;
+      position: 400px;
+    }
+  }
+
+.component_14 {
+    display: flex;
+    .app_x {
+        width: 400px;
+        padding: 0 1rem;
+        max-height: 100vh;
+        overflow: hidden;
+        background-color: $secondarygray;
+        position: 400px;
+    }
+}

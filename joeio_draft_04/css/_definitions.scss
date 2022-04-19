@@ -1,0 +1,63 @@
+//definitions
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+// primary colors 
+$primaryyellow:  	#ffc101;
+$primaryred: #f36e62;
+$secondaryred: #590004;
+$primarydark: #3f3247;
+$primarylight: #F3F3F3;
+$primarygray:  	#aaaaaa;
+$secondarygray: rgb(53, 53, 53);
+$primarypurple: #6c5aa6;
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $primarylight;
+  opacity: 1; /* Firefox */
+}
+
+//breakpoint?
+$breakpoint: 843px;
+
+// fonts
+
+$primaryfont: 'ohm-bold', 'Open Sans';
+$secondaryfont: 'hero-new-hairline', 'Open Sans';
+$thirdfont: 'hero-new-thin', 'Open Sans';
+
+
+//specs 
+// 2 screens, mobile W 320, H 568; ipad/web W 1366, H 1024. Breakpoint 843px;
+
+//mixins
+
+@mixin grand_width_flex () {
+    width: 100%;
+    display: flex;
+}
+
+// .example_sass_code {
+// @include grand_width_flex();
+// justify-content: space-around;
+//     .aref-container {
+//         width: 66.66%;
+//         text-decoration: none;
+        
+//         @media (min-width: $breakpoint) {
+//             width: 300px;
+//         }
+//         .global-button-orange {
+//             text-align: center;
+//             color: black;
+//             box-shadow: 5px 5px rgba(255, 124, 30, 0.53);
+//         }
+//     }
+    
+// }
