@@ -455,6 +455,12 @@ a {
   position: 400px;
 }
 
+.captcha_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .song-info {
   min-height: 58vh;
   display: flex;
