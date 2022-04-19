@@ -45,6 +45,7 @@ a {
 
 .component_01 .fa-align-right {
   color: #f36e62;
+  margin-left: 5px;
 }
 
 .component_02 {
@@ -295,6 +296,7 @@ a {
   width: 100%;
   display: none;
   justify-content: center;
+  margin-bottom: 22px;
 }
 
 .component_09 .third_header_container {

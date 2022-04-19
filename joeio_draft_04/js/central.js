@@ -4,7 +4,7 @@
 
     let para = {
 
-        about: "joedavies.io is a digital repository. <br> <br> Joe Davies is a 28 year old digital artist based in New Zealand. <br> <br> 'Thank you for visiting my web app. My work explores the space between technology and art. I create digital content for posterity and offer digital services to users. 100% of profits go to digital art.'",
+        about: "joedavies.io is a digital repository. <br> <br> Joe Davies is a 28 year old digital artist based in New Zealand. <br> <br> 'Thank you for visiting my web app. My work explores the space between technology and art. I create digital content for posterity and offer digital services to users.'",
     
         design: "joedavies.io is a web based application written in html, scss and javascript and is an example of my design and scripting. I can code, design and maintain websites at a set cost (no hourly prices) and work alongside other developers in bigger projects.", "sub" : "User Experience Design.",
     
@@ -22,9 +22,9 @@
     
     let photos = {
 
-        blondinis_cover: "/src/img/bp_03-01.png",
+        blondinis_cover: "/joeio_draft_04/src/img/bp_03-01.png",
 
-        techno_hills: '/src/img/techno_logos-01.png'
+        techno_hills: '/joeio_draft_04/src/img/techno_logos-01.png'
     }
 
     let videos = {
@@ -219,9 +219,11 @@ let h22 = document.getElementById('h22');
                     audio_act[y].pause();
                 }
                 audio.pause();
+
                 audio.src = '';
                 img_z.src = '/joeio_draft_04/src/img/hip_hop_ins/hip_hop_instru-01.png';
                 h22.innerHTML = 'Sunday School';
+
                 lib0.classList.remove("selected");
                 lib1.classList.remove("selected");
                 lib2.classList.remove("selected");
@@ -318,7 +320,11 @@ let h22 = document.getElementById('h22');
                                 console.log('gfff');
                             }
 
-                            audio.src = '/joeio_draft_04/src/audio/blondinis_audio/dreamz.wav';
+
+                            audio.src = '';
+
+
+
                             img_z.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
                             h22.innerHTML = 'Dreamz';
                             lib0.classList.add("selected");
