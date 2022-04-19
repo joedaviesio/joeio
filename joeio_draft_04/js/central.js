@@ -219,9 +219,11 @@ let h22 = document.getElementById('h22');
                     audio_act[y].pause();
                 }
                 audio.pause();
-                audio.src = '/joeio_draft_04/src/audio/instrumentals/j_d_01.wav';
+
+                audio.src = '';
                 img_z.src = '/joeio_draft_04/src/img/hip_hop_ins/hip_hop_instru-01.png';
-                h22.innerHTML = 'MC Pasa';
+                h22.innerHTML = 'Sunday School';
+
                 lib0.classList.remove("selected");
                 lib1.classList.remove("selected");
                 lib2.classList.remove("selected");
@@ -318,7 +320,11 @@ let h22 = document.getElementById('h22');
                                 console.log('gfff');
                             }
 
+
                             audio.src = '';
+
+
+
                             img_z.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
                             h22.innerHTML = 'Dreamz';
                             lib0.classList.add("selected");

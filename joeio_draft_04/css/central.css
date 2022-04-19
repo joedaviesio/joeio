@@ -60,8 +60,7 @@ a {
   padding: 12px;
   color: #F3F3F3;
   font-family: "hero-new-hairline", "Open Sans";
-  font-size: 18px;
-  font-weight: 100;
+  font-size: 28px;
   font-style: normal;
 }
 
@@ -354,7 +353,7 @@ a {
 }
 
 .inputs .fieldset .input {
-  font-family: "hero-new-thin", "Open Sans";
+  font-family: "hero-new-thin", "hero-new-hairline";
   color: white;
   font-size: 18px;
   background-color: #590004;
@@ -370,7 +369,7 @@ a {
   padding: 8px;
   background-color: #aaaaaa;
   color: #F3F3F3;
-  font-family: "hero-new-thin", "Open Sans";
+  font-family: "hero-new-thin", "hero-new-hairline";
   font-size: 24px;
   border-radius: 30px;
   border: solid 1px white;
@@ -472,7 +471,7 @@ a {
   box-shadow: 2px 2px #F3F3F3;
 }
 
-.song-info h2 {
+.song-info #h22 {
   background-clip: text;
   margin-bottom: 0.2rem;
   font-family: "hero-new-hairline", "Open Sans";
@@ -482,7 +481,7 @@ a {
 
 .song-info h3 {
   text-align: center;
-  font-family: "hero-new-thin", "Open Sans";
+  font-family: "hero-new-thin", "hero-new-hairline";
   color: #ff9966;
 }
 
@@ -542,7 +541,7 @@ a {
 
 .player span {
   font-size: 0.8rem;
-  font-family: "hero-new-thin", "Open Sans";
+  font-family: "hero-new-thin", "hero-new-hairline";
   font-weight: 600;
   color: #ffc101;
 }
