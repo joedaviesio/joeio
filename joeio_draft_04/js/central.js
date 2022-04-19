@@ -4,7 +4,7 @@
 
     let para = {
 
-        about: "joedavies.io is a digital repository. <br> <br> Joe Davies is a 28 year old digital artist based in New Zealand. <br> <br> 'Thank you for visiting my web app. My work explores the space between technology and art. I create digital content for posterity and offer digital services to users. 100% of profits go to digital art.'",
+        about: "joedavies.io is a digital repository. <br> <br> Joe Davies is a 28 year old digital artist based in New Zealand. <br> <br> 'Thank you for visiting my web app. My work explores the space between technology and art. I create digital content for posterity and offer digital services to users.'",
     
         design: "joedavies.io is a web based application written in html, scss and javascript and is an example of my design and scripting. I can code, design and maintain websites at a set cost (no hourly prices) and work alongside other developers in bigger projects.", "sub" : "User Experience Design.",
     
@@ -22,9 +22,9 @@
     
     let photos = {
 
-        blondinis_cover: "/src/img/bp_03-01.png",
+        blondinis_cover: "/joeio_draft_04/src/img/bp_03-01.png",
 
-        techno_hills: '/src/img/techno_logos-01.png'
+        techno_hills: '/joeio_draft_04/src/img/techno_logos-01.png'
     }
 
     let videos = {
@@ -186,8 +186,8 @@ let h22 = document.getElementById('h22');
             for (let y = 0; y <audio_act.length; y++) {
                 audio_act[y].pause();
             }
-            audio.src = '/src/audio/instrumentals/sunday_school.mp3';
-            img_z.src = '/src/img/hip_hop_ins/hip_hop_instru-01.png';
+            audio.src = '/joeio_draft_04/src/audio/instrumentals/sunday_school.mp3';
+            img_z.src = '/joeio_draft_04/src/img/hip_hop_ins/hip_hop_instru-01.png';
             h22.innerHTML = 'Sunday School';
             lib0.classList.remove("selected");
             lib1.classList.remove("selected");
@@ -213,14 +213,14 @@ let h22 = document.getElementById('h22');
                 db.style.backgroundColor = 'transparent';
                 vb.style.backgroundColor = 'transparent';
                 video_play.pause();
-                second_img.src = '/src/img/hip_hop_ins/hip_hop_instru-01.png';
+                second_img.src = '/joeio_draft_04/src/img/hip_hop_ins/hip_hop_instru-01.png';
 
                 for (let y = 0; y <audio_act.length; y++) {
                     audio_act[y].pause();
                 }
                 audio.pause();
-                audio.src = '/src/audio/instrumentals/j_d_01.wav';
-                img_z.src = '/src/img/hip_hop_ins/hip_hop_instru-01.png';
+                audio.src = '/joeio_draft_04/src/audio/instrumentals/j_d_01.wav';
+                img_z.src = '/joeio_draft_04/src/img/hip_hop_ins/hip_hop_instru-01.png';
                 h22.innerHTML = 'MC Pasa';
                 lib0.classList.remove("selected");
                 lib1.classList.remove("selected");
@@ -254,7 +254,7 @@ let h22 = document.getElementById('h22');
                     document.getElementById('video_box').style.backgroundColor = 'rgb(53, 53, 53)';
                     ab.style.backgroundColor = 'transparent';
                     db.style.backgroundColor = 'transparent';
-                    second_img.src = '/src/img/bp/bp_04-01.png';
+                    second_img.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
                     wide_video_iframe.innerHTML = videos.blondins_iframe;
                     // audio_act.pause();
 
@@ -267,8 +267,8 @@ let h22 = document.getElementById('h22');
                         audio_act_02[p].pause();
                         console.log('gfff');
                     }
-                    audio.src = '/src/audio/blondinis_audio/dreamz.wav';
-                    img_z.src = '/src/img/bp/bp_04-01.png';
+                    audio.src = '/joeio_draft_04/src/audio/blondinis_audio/dreamz.wav';
+                    img_z.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
                     h22.innerHTML = 'Dreamz';
                     lib0.classList.add("selected");
                     lib1.classList.remove("selected");
@@ -296,7 +296,7 @@ let h22 = document.getElementById('h22');
                         document.getElementById('video_box').style.backgroundColor = 'rgb(53, 53, 53)';
                         ab.style.backgroundColor = 'transparent';
                         db.style.backgroundColor = 'transparent';
-                        second_img.src = '/src/img/bp/bp_04-01.png';
+                        second_img.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
                         wide_video_iframe.innerHTML = videos.blondins_iframe;    
                         audio.pause();
     
@@ -318,8 +318,8 @@ let h22 = document.getElementById('h22');
                                 console.log('gfff');
                             }
 
-                            audio.src = '/src/audio/blondinis_audio/dreamz.wav';
-                            img_z.src = '/src/img/bp/bp_04-01.png';
+                            audio.src = '';
+                            img_z.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
                             h22.innerHTML = 'Dreamz';
                             lib0.classList.add("selected");
                             lib1.classList.remove("selected");
@@ -375,7 +375,7 @@ let h22 = document.getElementById('h22');
                 vb.style.backgroundColor = 'transparent';
                 video_play.pause();
                 wide_video_iframe.innerHTML = "";
-                img_src.src = "/src/img/design/code.png";
+
     
                 for (let x = 0; x < design_off.length; x++ ) 
                     
@@ -406,7 +406,7 @@ let h22 = document.getElementById('h22');
             wide_video_iframe.innerHTML = "";
             video_play.pause();
 
-            img_src.src = "/src/img/self/2022-01-07-self-portrait.JPG";
+
 
             for (let x = 0; x < about_off.length; x++)
                 {
