@@ -477,7 +477,7 @@ a {
   box-shadow: 2px 2px #F3F3F3;
 }
 
-.song-info #h22 {
+.song-info h2 {
   background-clip: text;
   margin-bottom: 0.2rem;
   font-family: "hero-new-hairline", "Open Sans";
