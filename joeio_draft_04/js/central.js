@@ -186,8 +186,8 @@ let h22 = document.getElementById('h22');
             for (let y = 0; y <audio_act.length; y++) {
                 audio_act[y].pause();
             }
-            audio.src = '/src/audio/instrumentals/sunday_school.mp3';
-            img_z.src = '/src/img/hip_hop_ins/hip_hop_instru-01.png';
+            audio.src = '/joeio_draft_04/src/audio/instrumentals/sunday_school.mp3';
+            img_z.src = '/joeio_draft_04/src/img/hip_hop_ins/hip_hop_instru-01.png';
             h22.innerHTML = 'Sunday School';
             lib0.classList.remove("selected");
             lib1.classList.remove("selected");
@@ -213,15 +213,15 @@ let h22 = document.getElementById('h22');
                 db.style.backgroundColor = 'transparent';
                 vb.style.backgroundColor = 'transparent';
                 video_play.pause();
-                second_img.src = '/src/img/hip_hop_ins/hip_hop_instru-01.png';
+                second_img.src = '/joeio_draft_04/src/img/hip_hop_ins/hip_hop_instru-01.png';
 
                 for (let y = 0; y <audio_act.length; y++) {
                     audio_act[y].pause();
                 }
                 audio.pause();
-                audio.src = '/src/audio/instrumentals/j_d_01.wav';
-                img_z.src = '/src/img/hip_hop_ins/hip_hop_instru-01.png';
-                h22.innerHTML = 'MC Pasa';
+                audio.src = '';
+                img_z.src = '/joeio_draft_04/src/img/hip_hop_ins/hip_hop_instru-01.png';
+                h22.innerHTML = 'Sunday School';
                 lib0.classList.remove("selected");
                 lib1.classList.remove("selected");
                 lib2.classList.remove("selected");
@@ -254,7 +254,7 @@ let h22 = document.getElementById('h22');
                     document.getElementById('video_box').style.backgroundColor = 'rgb(53, 53, 53)';
                     ab.style.backgroundColor = 'transparent';
                     db.style.backgroundColor = 'transparent';
-                    second_img.src = '/src/img/bp/bp_04-01.png';
+                    second_img.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
                     wide_video_iframe.innerHTML = videos.blondins_iframe;
                     // audio_act.pause();
 
@@ -267,8 +267,8 @@ let h22 = document.getElementById('h22');
                         audio_act_02[p].pause();
                         console.log('gfff');
                     }
-                    audio.src = '/src/audio/blondinis_audio/dreamz.wav';
-                    img_z.src = '/src/img/bp/bp_04-01.png';
+                    audio.src = '/joeio_draft_04/src/audio/blondinis_audio/dreamz.wav';
+                    img_z.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
                     h22.innerHTML = 'Dreamz';
                     lib0.classList.add("selected");
                     lib1.classList.remove("selected");
@@ -296,7 +296,7 @@ let h22 = document.getElementById('h22');
                         document.getElementById('video_box').style.backgroundColor = 'rgb(53, 53, 53)';
                         ab.style.backgroundColor = 'transparent';
                         db.style.backgroundColor = 'transparent';
-                        second_img.src = '/src/img/bp/bp_04-01.png';
+                        second_img.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
                         wide_video_iframe.innerHTML = videos.blondins_iframe;    
                         audio.pause();
     
@@ -318,8 +318,8 @@ let h22 = document.getElementById('h22');
                                 console.log('gfff');
                             }
 
-                            audio.src = '/src/audio/blondinis_audio/dreamz.wav';
-                            img_z.src = '/src/img/bp/bp_04-01.png';
+                            audio.src = '/joeio_draft_04/src/audio/blondinis_audio/dreamz.wav';
+                            img_z.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
                             h22.innerHTML = 'Dreamz';
                             lib0.classList.add("selected");
                             lib1.classList.remove("selected");
@@ -375,7 +375,7 @@ let h22 = document.getElementById('h22');
                 vb.style.backgroundColor = 'transparent';
                 video_play.pause();
                 wide_video_iframe.innerHTML = "";
-                img_src.src = "/src/img/design/code.png";
+
     
                 for (let x = 0; x < design_off.length; x++ ) 
                     
@@ -406,7 +406,7 @@ let h22 = document.getElementById('h22');
             wide_video_iframe.innerHTML = "";
             video_play.pause();
 
-            img_src.src = "/src/img/self/2022-01-07-self-portrait.JPG";
+
 
             for (let x = 0; x < about_off.length; x++)
                 {
