@@ -163,20 +163,18 @@ let h22 = document.getElementById('h22');
                            
         }
         audio_x.onclick = function() {
-            for (let i = 0; i < audio_land.length; i++) {
-                
+            for (let i = 0; i < audio_land.length; i++) 
+            
+                    {
                 console.log(audio_land[i]);
                 audio_land[i].style.display = 'flex';
-
                 wide_video_iframe.innerHTML = videos.techno_video;
                 document.getElementById('audio_box').style.backgroundColor = 'rgb(53, 53, 53)';
                 db.style.backgroundColor = 'transparent';
                 vb.style.backgroundColor = 'transparent';
- 
 
-
-                
             }
+
             audio.pause();
             for (let x = 0; x < audio_off.length; x++ ) {
                     audio_off[x].style.display = 'none';
@@ -269,7 +267,7 @@ let h22 = document.getElementById('h22');
                         audio_act_02[p].pause();
                         console.log('gfff');
                     }
-                    audio.src = '/joeio_draft_04/src/audio/blondinis_audio/dreamz.wav';
+                    audio.src = '/joeio_draft_04/src/audio/blondinis_audio/dreamz_10.mp3';
                     img_z.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
                     h22.innerHTML = 'Dreamz';
                     lib0.classList.add("selected");
@@ -321,7 +319,7 @@ let h22 = document.getElementById('h22');
                             }
 
 
-                            audio.src = '';
+                            audio.src = '/joeio_draft_04/src/audio/blondinis_audio/dreamz_10.mp3';
 
 
 
