@@ -67,7 +67,6 @@ a {
 
     #video_play {
         width: 100%;
-        
         box-shadow: 2px 2px 5px $primarylight;
     }
 }
@@ -315,6 +314,29 @@ a {
     }
 }
 
+
+.component_09_01 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgba(45, 45, 45, 0.415);
+    .third_header_container {
+
+
+        display: flex;
+        justify-content: center;
+
+
+        .third_header {
+            font-family: 'Gill Sans', $secondaryfont;
+            font-size: 32px;
+            color: $primarylight;
+            font-weight: lighter;
+            padding: 15px;
+        }
+    }
+}
 .component_10 {
     width: 100%;
     display: none;
@@ -468,4 +490,8 @@ a {
     align-items: center;
 
 
+}
+
+#b2b {
+    display: none;
 }

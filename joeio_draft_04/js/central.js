@@ -60,6 +60,7 @@
     let _11 = document.getElementById("component_11");
     let bh = document.getElementById('blondinis_header');
     let _13 = document.getElementById("component_13");
+    let b2b = document.getElementById('b2b');
 
 
     // 

@@ -313,6 +313,26 @@ a {
   color: #F3F3F3;
 }
 
+.component_09_01 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(45, 45, 45, 0.415);
+}
+
+.component_09_01 .third_header_container {
+  display: flex;
+  justify-content: center;
+}
+
+.component_09_01 .third_header_container .third_header {
+  font-family: "Gill Sans", "hero-new-hairline", "Open Sans";
+  font-size: 32px;
+  color: #F3F3F3;
+  font-weight: lighter;
+  padding: 15px;
+}
+
 .component_10 {
   width: 100%;
   display: none;
@@ -461,6 +481,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#b2b {
+  display: none;
 }
 
 .song-info {
