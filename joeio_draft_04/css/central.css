@@ -58,7 +58,7 @@ a {
   display: flex;
   justify-content: center;
   padding: 12px;
-  color: #F3F3F3;
+  color: white;
   font-family: "hero-new-hairline", "Open Sans";
   font-size: 28px;
   font-style: normal;
@@ -115,6 +115,7 @@ a {
   background-color: #f36e62;
   color: #353535;
   font-family: "hero-new-hairline", "Open Sans";
+  font-weight: bolder;
   font-size: 28px;
   border-radius: 30px;
   box-shadow: 5px 5px 5px #ffc101;
@@ -374,6 +375,7 @@ a {
 
 .inputs .fieldset .input {
   font-family: "hero-new-thin", "hero-new-hairline";
+  font-weight: bolder;
   color: white;
   font-size: 18px;
   background-color: #590004;

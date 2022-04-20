@@ -42,7 +42,7 @@ a {
         display: flex;
         justify-content: center;
         padding: 12px;
-        color: $primarylight;
+        color: white;
         font-family: $secondaryfont;
         font-size: 28px;
 
@@ -108,6 +108,7 @@ a {
         background-color: $primaryred;
         color: $secondarygray;
         font-family: $secondaryfont;
+        font-weight: bolder;
 
         font-size: 28px;
         border-radius: 30px;
@@ -374,6 +375,7 @@ a {
                 padding-bottom: 50px;
                 .input {
                     font-family: $thirdfont;
+                    font-weight: bolder;
                     color: white;
                     font-size: 18px;
                     background-color: $secondaryred;

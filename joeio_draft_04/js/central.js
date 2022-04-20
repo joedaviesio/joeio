@@ -61,6 +61,7 @@
     let bh = document.getElementById('blondinis_header');
     let _13 = document.getElementById("component_13");
     let b2b = document.getElementById('b2b');
+    let _09_01 = document.getElementById('component_09_01');
 
 
     // 
@@ -106,31 +107,31 @@
 
     let landing = 'free state on landing no js, one page application';
 
-    let audio_land = [_01, _02, _03, _04, wide_video_iframe, _13];
+    let audio_land = [_01, _02, _03, _04, _13, b2b];
 
-    let audio_off = [_11, _10, _09, _07, _video_component, _08, bh, _06, _05, _05_01];
+    let audio_off = [_11, _10, _09, _07, _video_component, _08, bh, _06, _05, _05_01, wide_video_iframe, _09_01];
 
-    let video_land = [_01, _02, _03, _04, _13, wide_video_iframe];
+    let video_land = [_01, _02, _03, _04, _13, wide_video_iframe, _09_01];
 
-    let video_off = [_11, _10, _09, _08, _07, _video_component, bh, _06_01, _05, _05_01];
+    let video_off = [_11, _10, _09, _08, _07, _video_component, bh, _06_01, _05, _05_01, b2b];
 
     let design_land = [_01, _02, _03, _04, _08];
 
-    let design_off = [_11, _10, _09, _07, _06, _video_component, wide_video_iframe, _05_01, bh, _06_01, _05, _13];
+    let design_off = [_11, _10, _09, _07, _06, _video_component, wide_video_iframe, _05_01, bh, _06_01, _05, _13, b2b, _09_01];
 
     //dropdown overlay is different 
 
     let about_land = [_01, _03, _04, _05, _09];
 
-    let about_off = [_07, _11, _10, _06, _video_component, _02, wide_video_iframe, _05_01, bh, _06_01, _08, _13];
+    let about_off = [_07, _11, _10, _06, _video_component, _02, wide_video_iframe, _05_01, bh, _06_01, _08, _13, b2b, _09_01];
 
     let socials_land = [_01, _03, _04, _09,_10];
 
-    let socials_off = [_11, _08, _06, _05, _video_component, _02, _07, wide_video_iframe, _05_01, bh, _06_01, _13];
+    let socials_off = [_11, _08, _06, _05, _video_component, _02, _07, wide_video_iframe, _05_01, bh, _06_01, _13, b2b, _09_01];
 
     let contact_land = [_01, _03, _04, _08, _11, _09]; 
 
-    let contact_off = [_03, _10, _08, _06, _05, _video_component, _02, wide_video_iframe, _05_01, bh, _06_01, _13];
+    let contact_off = [_03, _10, _08, _06, _05, _video_component, _02, wide_video_iframe, _05_01, bh, _06_01, _13, b2b, _09_01];
 
     //  audio set up
 
@@ -163,7 +164,7 @@ let h22 = document.getElementById('h22');
                            }
                            
         }
-        audio_x.onclick = function() {
+        let audio_func = function() {
             for (let i = 0; i < audio_land.length; i++) 
             
                     {
@@ -185,60 +186,27 @@ let h22 = document.getElementById('h22');
             for (let y = 0; y <audio_act.length; y++) {
                 audio_act[y].pause();
             }
-            audio.src = '/joeio_draft_04/src/audio/instrumentals/sunday_school.mp3';
+            audio.src = '/joeio_draft_04/src/audio/instrumentals/chinatown.mp3';
             img_z.src = '/joeio_draft_04/src/img/hip_hop_ins/hip_hop_instru-01.png';
-            h22.innerHTML = 'Sunday School';
+            h22.innerHTML = 'Chinatown';
             lib0.classList.remove("selected");
             lib1.classList.remove("selected");
             lib2.classList.remove("selected");
             lib3.classList.remove("selected");
             lib4.classList.remove("selected");
             lib5.classList.add("selected");
-            console.log('hello');
+            lib6.classList.remove("selected");
+            lib7.classList.remove("selected");
+ 
 
 
       
         }
-        _audio.onclick = function() {
-            for (let i = 0; i < audio_land.length; i++) {
-                
-                console.log(audio_land[i]);
-                audio_land[i].style.display = 'flex';
-                
-                text.innerHTML = para.audio;
-                wide_video_iframe.innerHTML = videos.techno_video;
 
-                document.getElementById('audio_box').style.backgroundColor = 'rgb(53, 53, 53)';
-                db.style.backgroundColor = 'transparent';
-                vb.style.backgroundColor = 'transparent';
-                video_play.pause();
-                second_img.src = '/joeio_draft_04/src/img/hip_hop_ins/hip_hop_instru-01.png';
+        audio_x.onclick = audio_func;
+        _audio.onclick = audio_func;
 
-                for (let y = 0; y <audio_act.length; y++) {
-                    audio_act[y].pause();
-                }
-                audio.pause();
 
-                audio.src = '';
-                img_z.src = '/joeio_draft_04/src/img/hip_hop_ins/hip_hop_instru-01.png';
-                h22.innerHTML = 'Sunday School';
-
-                lib0.classList.remove("selected");
-                lib1.classList.remove("selected");
-                lib2.classList.remove("selected");
-                lib3.classList.remove("selected");
-                lib4.classList.remove("selected");
-                lib5.classList.add("selected");
-
-                
-            }
-
-            for (let x = 0; x < audio_off.length; x++ ) {
-                    audio_off[x].style.display = 'none';
-                    console.log(audio_off);
-            }
-
-        }
 
 
 
