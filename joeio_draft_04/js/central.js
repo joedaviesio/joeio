@@ -132,7 +132,7 @@
 
     let contact_land = [_01, _03, _04, _08, _11, _09]; 
 
-    let contact_off = [_03, _10, _08, _06, _05, _video_component, _02, wide_video_iframe, _05_01, bh, _06_01, _13, b2b, _09_01, blog];
+    let contact_off = [_03, _10, _08, _06, _05, _video_component, _02, wide_video_iframe, _05_01, bh, _06_01, _13, b2b, _09_01, blog, _07];
 
     let blog_land = [_01, blog,  _03, _04];
 
