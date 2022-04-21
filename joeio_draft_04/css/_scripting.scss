@@ -373,6 +373,7 @@ a {
                 justify-content: center;
                 flex-direction: column;
                 padding-bottom: 50px;
+
                 .input {
                     font-family: $thirdfont;
                     font-weight: bolder;
@@ -384,6 +385,9 @@ a {
                     border: none;
                     box-shadow: -5px 5px 5px $primarylight;
                     border: solid 1px white;
+                    padding: 10px;
+                    margin: 8px;
+    
 
 
                 }
@@ -392,12 +396,12 @@ a {
                    
                         border: none;
                         padding: 8px;
-                        background-color: $primarygray;
+                        background-color: $primaryred;
                         color: $primarylight;
                         font-family: $thirdfont;
                         font-size: 24px;
                         border-radius: 30px;
-                        border: solid 1px white;
+                        border: solid 1px white;margin: 15px;
                         
                 
                 

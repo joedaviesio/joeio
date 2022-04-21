@@ -59,7 +59,7 @@ a {
   justify-content: center;
   padding: 12px;
   color: white;
-  font-family: "hero-new-hairline", "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 28px;
   font-style: normal;
 }
@@ -114,7 +114,7 @@ a {
   padding: 8px;
   background-color: #f36e62;
   color: #353535;
-  font-family: "hero-new-hairline", "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: bolder;
   font-size: 28px;
   border-radius: 30px;
@@ -147,7 +147,7 @@ a {
 
 .component_05 .text {
   color: #F3F3F3;
-  font-family: "hero-new-hairline", "Open Sans";
+  font-family: "Open Sans", sans-serif;
   text-align: justify;
   padding-left: 10%;
   padding-right: 10%;
@@ -179,7 +179,7 @@ a {
 
 .component_06 .audio_container .tune_header {
   color: white;
-  font-family: "hero-new-hairline", "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: bolder;
   font-size: 18px;
   text-align: center;
@@ -222,7 +222,7 @@ a {
 
 #component_06_01 .audio_container .tune_header {
   color: white;
-  font-family: "hero-new-hairline", "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-weight: bolder;
   font-size: 18px;
   text-align: center;
@@ -266,7 +266,7 @@ a {
 }
 
 .component_07 .dropdown_container .dropdown_text_container .dropdown_text {
-  font-family: "hero-new-hairline", "Open Sans";
+  font-family: "Open Sans", sans-serif;
   color: #F3F3F3;
   font-size: 32px;
 }
@@ -309,7 +309,7 @@ a {
 }
 
 .component_09 .third_header_container .third_header {
-  font-family: "hero-new-hairline", "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 32px;
   color: #F3F3F3;
 }
@@ -327,7 +327,7 @@ a {
 }
 
 .component_09_01 .third_header_container .third_header {
-  font-family: "Gill Sans", "hero-new-hairline", "Open Sans";
+  font-family: "Gill Sans", "Open Sans", sans-serif;
   font-size: 32px;
   color: #F3F3F3;
   font-weight: lighter;
@@ -374,7 +374,7 @@ a {
 }
 
 .inputs .fieldset .input {
-  font-family: "hero-new-thin", "hero-new-hairline";
+  font-family: "Open Sans", sans-serif;
   font-weight: bolder;
   color: white;
   font-size: 18px;
@@ -384,22 +384,25 @@ a {
   border: none;
   box-shadow: -5px 5px 5px #F3F3F3;
   border: solid 1px white;
+  padding: 10px;
+  margin: 8px;
 }
 
 .inputs .fieldset .submit {
   border: none;
   padding: 8px;
-  background-color: #aaaaaa;
+  background-color: #f36e62;
   color: #F3F3F3;
-  font-family: "hero-new-thin", "hero-new-hairline";
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   border-radius: 30px;
   border: solid 1px white;
+  margin: 15px;
 }
 
 .inputs .fieldset .email {
   color: #F3F3F3;
-  font-family: "hero-new-hairline", "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 .component_05_01 {
@@ -442,7 +445,7 @@ a {
 
 .blondinis_header .bh_p {
   color: #F3F3F3;
-  font-family: "hero-new-hairline", "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 .flex_on {
@@ -506,14 +509,14 @@ a {
 .song-info h2 {
   background-clip: text;
   margin-bottom: 0.2rem;
-  font-family: "hero-new-hairline", "Open Sans";
+  font-family: "Open Sans", sans-serif;
   color: #F3F3F3;
   font-size: 28px;
 }
 
 .song-info h3 {
   text-align: center;
-  font-family: "hero-new-thin", "hero-new-hairline";
+  font-family: "Open Sans", sans-serif;
   color: #ff9966;
 }
 
@@ -573,7 +576,7 @@ a {
 
 .player span {
   font-size: 0.8rem;
-  font-family: "hero-new-thin", "hero-new-hairline";
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   color: #ffc101;
 }
