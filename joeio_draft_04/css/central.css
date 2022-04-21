@@ -245,6 +245,7 @@ a {
   justify-content: flex-end;
   position: fixed;
   top: 150px;
+  z-index: 3;
 }
 
 .component_07 .dropdown_container {
@@ -269,6 +270,7 @@ a {
   font-family: "Open Sans", sans-serif;
   color: #F3F3F3;
   font-size: 32px;
+  padding: 8px;
 }
 
 .component_08 {
@@ -490,6 +492,45 @@ a {
 
 #b2b {
   display: none;
+}
+
+.blog {
+  width: 100%;
+  display: none;
+}
+
+.blog .blog_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  margin: 10px;
+  padding: 10%;
+}
+
+.blog .blog_item .blog_exact {
+  color: white;
+  align-self: flex-end;
+  padding: 15px;
+}
+
+.blog .blog_item .blog_date {
+  font-size: 18px;
+  align-self: flex-start;
+  color: rgba(0, 242, 255, 0.753);
+  border-radius: 44px;
+  padding: 15px;
+  background-color: rgba(122, 122, 137, 0.276);
+}
+
+.blog .blog_item .blog_entry {
+  background-color: #272727;
+  font-size: 18px;
+  text-align: justify;
+  padding: 22px;
+  border-radius: 44px;
+  color: #F3F3F3;
 }
 
 .song-info {

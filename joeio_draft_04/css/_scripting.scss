@@ -244,6 +244,7 @@ a {
     justify-content: flex-end;
     position: fixed;
     top: 150px;
+    z-index: 3;
 
     .dropdown_container {
         width: 50%;
@@ -265,6 +266,7 @@ a {
                 font-family: $secondaryfont;
                 color: $primarylight;
                 font-size: 32px;
+                padding: 8px;
                 
 
 
@@ -500,4 +502,43 @@ a {
 
 #b2b {
     display: none;
+}
+
+.blog {
+    width: 100%;
+    display: none;
+
+    .blog_item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: $secondaryfont;
+
+        margin: 10px;
+        padding: 10%;
+.blog_exact {
+
+    color: white;
+    align-self: flex-end;
+    padding: 15px;
+}
+        .blog_date {
+            font-size: 18px;
+            align-self: flex-start;
+            color: rgba(0, 242, 255, 0.753);
+                border-radius: 44px;
+            padding: 15px;
+        background-color: rgba(122, 122, 137, 0.276);
+        }
+        .blog_entry {
+            background-color: rgb(39, 39, 39);
+            font-size: 18px;
+            text-align: justify;
+            padding: 22px;
+            border-radius: 44px;
+            color: $primarylight;
+
+        }
+    }
 }

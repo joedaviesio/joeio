@@ -4,7 +4,7 @@
 
     let para = {
 
-        about: "joedavies.io is a digital repository. <br> <br> Joe Davies is a 28 year old digital artist based in New Zealand. <br> <br> 'Thank you for visiting my web application. My work explores the space between technology and art. <br> <br> Design Principles <br> <br> Nice fonts <br> Symmetrical placement<br> Nice palettes and gradients<br> Nice media. <br> <br>I create digital content for posterity and offer digital services to users.'",
+        about: "joedavies.io is a digital repository. <br> <br> Joe Davies is a 28 year old digital artist based in New Zealand. <br> <br> 'Thank you for visiting my web application. My work explores the space between technology and art. <br> <br> Design Principles <br> <br> Nice fonts <br> Symmetrical placement<br> Nice palettes and gradients<br> Nice media <br> <br>I create digital content for posterity and offer digital services to users.'",
     
         design: "joedavies.io is a web based application written in html, scss and javascript and is an example of my design and scripting. I can code, design and maintain websites at a set cost (no hourly prices) and work alongside other developers in bigger projects.", "sub" : "User Experience Design.",
     
@@ -62,6 +62,7 @@
     let _13 = document.getElementById("component_13");
     let b2b = document.getElementById('b2b');
     let _09_01 = document.getElementById('component_09_01');
+    let blog = document.getElementById('blog');
 
 
     // 
@@ -109,29 +110,33 @@
 
     let audio_land = [_01, _02, _03, _04, _13, b2b];
 
-    let audio_off = [_11, _10, _09, _07, _video_component, _08, bh, _06, _05, _05_01, wide_video_iframe, _09_01];
+    let audio_off = [_11, _10, _09, _07, _video_component, _08, bh, _06, _05, _05_01, wide_video_iframe, _09_01, blog];
 
     let video_land = [_01, _02, _03, _04, _13, wide_video_iframe, _09_01];
 
-    let video_off = [_11, _10, _09, _08, _07, _video_component, bh, _06_01, _05, _05_01, b2b];
+    let video_off = [_11, _10, _09, _08, _07, _video_component, bh, _06_01, _05, _05_01, b2b, blog];
 
     let design_land = [_01, _02, _03, _04, _08];
 
-    let design_off = [_11, _10, _09, _07, _06, _video_component, wide_video_iframe, _05_01, bh, _06_01, _05, _13, b2b, _09_01];
+    let design_off = [_11, _10, _09, _07, _06, _video_component, wide_video_iframe, _05_01, bh, _06_01, _05, _13, b2b, _09_01, blog];
 
     //dropdown overlay is different 
 
     let about_land = [_01, _03, _04, _05, _09];
 
-    let about_off = [_07, _11, _10, _06, _video_component, _02, wide_video_iframe, _05_01, bh, _06_01, _08, _13, b2b, _09_01];
+    let about_off = [_07, _11, _10, _06, _video_component, _02, wide_video_iframe, _05_01, bh, _06_01, _08, _13, b2b, _09_01, blog];
 
     let socials_land = [_01, _03, _04, _09,_10];
 
-    let socials_off = [_11, _08, _06, _05, _video_component, _02, _07, wide_video_iframe, _05_01, bh, _06_01, _13, b2b, _09_01];
+    let socials_off = [_11, _08, _06, _05, _video_component, _02, _07, wide_video_iframe, _05_01, bh, _06_01, _13, b2b, _09_01, blog];
 
     let contact_land = [_01, _03, _04, _08, _11, _09]; 
 
-    let contact_off = [_03, _10, _08, _06, _05, _video_component, _02, wide_video_iframe, _05_01, bh, _06_01, _13, b2b, _09_01];
+    let contact_off = [_03, _10, _08, _06, _05, _video_component, _02, wide_video_iframe, _05_01, bh, _06_01, _13, b2b, _09_01, blog];
+
+    let blog_land = [_01, blog,  _03, _04];
+
+    let blog_off = [_03, _10, _08, _06, _05, _video_component, _02, wide_video_iframe, _05_01, bh, _06_01, _13, b2b, _09_01, _09, _11, _07];
 
     //  audio set up
 
@@ -427,6 +432,10 @@ let h22 = document.getElementById('h22');
             }
             } 
 
+            // blog.onclick = function {
+
+            // }
+
             //contact
         button.onclick = function() {
             for (let i = 0; i < contact_land.length; i++) {
@@ -454,3 +463,23 @@ let h22 = document.getElementById('h22');
                
                          
     
+            document.getElementById('_blog_x').onclick = function() {
+                console.log('hello world');
+                for (let i = 0; i < blog_land.length; i++) {
+                    console.log(i);
+                    blog_land[i].style.display = 'flex';
+                }
+                audio.pause();
+                third_header.innerHTML = 'blog';
+
+                wide_video_iframe.innerHTML = "";
+
+    
+                b2b.innerHTML = "";
+    
+                for (let x = 0; x < blog_off.length; x++)
+                    {
+                       blog_off[x].style.display = 'none';
+                    }
+
+                }   
