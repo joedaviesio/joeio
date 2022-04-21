@@ -4,7 +4,7 @@
 
     let para = {
 
-        about: "joedavies.io is a digital repository. <br> <br> Joe Davies is a 28 year old digital artist based in New Zealand. <br> <br> 'Thank you for visiting my web app. My work explores the space between technology and art. I create digital content for posterity and offer digital services to users.'",
+        about: "joedavies.io is a digital repository. <br> <br> Joe Davies is a 28 year old digital artist based in New Zealand. <br> <br> 'Thank you for visiting my web application. My work explores the space between technology and art. <br> <br> Design Principles <br> <br> Nice fonts <br> Symmetrical placement<br> Nice palettes and gradients<br> Nice media. <br> <br>I create digital content for posterity and offer digital services to users.'",
     
         design: "joedavies.io is a web based application written in html, scss and javascript and is an example of my design and scripting. I can code, design and maintain websites at a set cost (no hourly prices) and work alongside other developers in bigger projects.", "sub" : "User Experience Design.",
     
@@ -328,7 +328,7 @@ let h22 = document.getElementById('h22');
                 audio_act[y].pause();
             }
 
-
+            b2b.innerHTML = "";
             for (let p = 0; p < audio_act_02.length; p++) {
                 audio_act_02[p].pause();
                 console.log('gfff');
@@ -348,7 +348,7 @@ let h22 = document.getElementById('h22');
                 vb.style.backgroundColor = 'transparent';
                 video_play.pause();
                 wide_video_iframe.innerHTML = "";
-
+                b2b.innerHTML = "";
     
                 for (let x = 0; x < design_off.length; x++ ) 
                     
@@ -379,7 +379,7 @@ let h22 = document.getElementById('h22');
             wide_video_iframe.innerHTML = "";
             video_play.pause();
 
-
+            b2b.innerHTML = "";
 
             for (let x = 0; x < about_off.length; x++)
                 {
@@ -406,6 +406,7 @@ let h22 = document.getElementById('h22');
                 console.log(i);
                 socials_land[i].style.display = 'flex';
             }
+            b2b.innerHTML = "";
             audio.pause();
             wide_video_iframe.innerHTML = "";
             third_header.innerHTML = 'socials';
@@ -432,6 +433,7 @@ let h22 = document.getElementById('h22');
                 console.log(contact_land);
                 contact_land[i].style.display = 'flex';
             }
+            b2b.innerHTML = "";
                 third_header.innerHTML = 'contact';
                 video_play.pause();
 
