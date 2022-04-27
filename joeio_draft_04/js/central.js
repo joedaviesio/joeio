@@ -31,11 +31,11 @@
 
         blondinis_video: "src/audio/gold_in_the_valley_03.wav",
 
-        techno_video: '<iframe width="100%" src="https://www.youtube.com/embed/4LyjoUFf0PA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="iframe_x"></iframe>',
+        techno_video: '<iframe width="100%" src="https://www.youtube.com/embed/C-SFjuHTwWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 
          test_video: '<iframe width="100%" height="" src="https://www.youtube.com/embed/D6ptEfen830" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
 
-         blondins_iframe: '<iframe width="100%" src="https://www.youtube.com/embed/_qAy--r7jAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="iframe"></iframe>'
+         blondinis_iframe: '<iframe width="100%" src="https://www.youtube.com/embed/_qAy--r7jAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="iframe"></iframe>'
     }
 
     let headers = ["about", "socials"];
@@ -175,7 +175,7 @@ let h22 = document.getElementById('h22');
                     {
                 console.log(audio_land[i]);
                 audio_land[i].style.display = 'flex';
-                wide_video_iframe.innerHTML = videos.techno_video;
+                b2b.innerHTML = videos.techno_video;
                 document.getElementById('audio_box').style.backgroundColor = 'rgb(53, 53, 53)';
                 db.style.backgroundColor = 'transparent';
                 vb.style.backgroundColor = 'transparent';
@@ -229,7 +229,7 @@ let h22 = document.getElementById('h22');
                     ab.style.backgroundColor = 'transparent';
                     db.style.backgroundColor = 'transparent';
                     second_img.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
-                    wide_video_iframe.innerHTML = videos.blondins_iframe;
+                    wide_video_iframe.innerHTML = videos.blondinis_iframe;
                     // audio_act.pause();
 
                     for (let y = 0; y <audio_act.length; y++) {
@@ -271,7 +271,7 @@ let h22 = document.getElementById('h22');
                         ab.style.backgroundColor = 'transparent';
                         db.style.backgroundColor = 'transparent';
                         second_img.src = '/joeio_draft_04/src/img/bp/bp_04-01.png';
-                        wide_video_iframe.innerHTML = videos.blondins_iframe;    
+                        wide_video_iframe.innerHTML = videos.blondinis_iframe;    
                         audio.pause();
     
                         
